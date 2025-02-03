@@ -13,6 +13,10 @@ The code is written in Python and uses the `nltk` library to generate text in th
 
 Finally, the probabilities of the words following a given n-word sequence are used to generate text in the style of Shakespeare by randomly selecting the next word based on the probabilities of the words following the n-word sequence.
 
+### Testing
+
+Testing was implemented directly within the notebook usin the unittest framework. The tests can be found at the last cell of the notebook and can be run directly from it.
+
 ### Running the code
 
 To run the code, you will need to have Python installed on your machine. You can download Python from the official website: https://www.python.org/downloads/
